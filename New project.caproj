@@ -45,11 +45,24 @@
         <object-type name="Touch" sid="693356486800624">
             <plugin id="Touch" />
         </object-type>
-        <object-type name="Sprite" sid="341885650595371">
+        <object-type name="Facebook" sid="639111389108316">
+            <plugin id="Facebook" />
+        </object-type>
+        <object-type name="Twitter" sid="886342481602283">
+            <plugin id="Twitter" />
+        </object-type>
+        <object-type name="Text" sid="253029827108797">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="Seconds" sid="419073229052066" type="number" />
+                <instance-variable name="stop" sid="182213890399004" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="Sprite" sid="606176054023414">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="364261739805382" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User D\Downloads\18985473_1347096948670931_1133028301_n.png">
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="183240475407813" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User D\Downloads\Button.png">
                         <collision-poly>
                             <point x="0.0673289" y="0.0673289" />
                             <point x="0.5" y="0" />
@@ -61,7 +74,7 @@
                             <point x="0" y="0.5" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User D\Downloads\18985473_1347096948670931_1133028301_n.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User D\Downloads\Button.png">
                         <collision-poly>
                             <point x="0.0673289" y="0.0673289" />
                             <point x="0.5" y="0" />
@@ -75,19 +88,6 @@
                     </frame>
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="Facebook" sid="639111389108316">
-            <plugin id="Facebook" />
-        </object-type>
-        <object-type name="Twitter" sid="886342481602283">
-            <plugin id="Twitter" />
-        </object-type>
-        <object-type name="Text" sid="253029827108797">
-            <plugin id="Text" />
-            <instance-variables>
-                <instance-variable name="Seconds" sid="419073229052066" type="number" />
-                <instance-variable name="stop" sid="182213890399004" type="number" />
-            </instance-variables>
         </object-type>
     </object-folder>
     <families />
