@@ -89,6 +89,25 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite2" sid="943386884664747">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="395019081931408" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User D\Downloads\retry.png">
+                        <collision-poly>
+                            <point x="0.182353" y="0.182353" />
+                            <point x="0.5" y="0.0470588" />
+                            <point x="0.817647" y="0.182353" />
+                            <point x="0.952941" y="0.5" />
+                            <point x="0.817647" y="0.817647" />
+                            <point x="0.5" y="0.952941" />
+                            <point x="0.182353" y="0.817647" />
+                            <point x="0.0470588" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
