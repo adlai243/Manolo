@@ -27,16 +27,11 @@
                         <action id="5" name="Set frame" sid="192944448017782" type="Sprite">
                             <param id="0" name="Frame number">0</param>
                         </action>
-                        <action id="5" name="Set frame" sid="974528984359834" type="Sprite">
-                            <param id="0" name="Frame number">1</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="330582289162229">
                     <conditions>
-                        <condition id="4" name="Is touching object" sid="542309429310357" type="Touch">
-                            <param id="0" name="Object">Sprite2</param>
-                        </condition>
+                        <condition id="1" name="On any touch end" sid="556499671926954" type="Touch" />
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" sid="199637127581025" type="System">
@@ -46,14 +41,13 @@
                         <action id="0" name="Set text" sid="131842858788247" type="Text">
                             <param id="0" name="Text">floor (Timer / 3600 ) &amp;  &quot;h&quot; &amp; floor (Timer / 60 % 60) &amp;  &quot;m&quot;  &amp; (Timer % 60) &amp; &quot;s&quot;</param>
                         </action>
+                        <action id="5" name="Set frame" sid="357327060250534" type="Sprite">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="866027789994584">
-            <conditions />
-            <actions />
-        </event-block>
         <event-block sid="475186384059392">
             <conditions>
                 <condition id="-1" name="Every tick" sid="948577629738038" type="System" />
