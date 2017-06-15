@@ -51,7 +51,7 @@
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Berlin Sans FB Demi,-27,700,0</font>
+                        <font>Century Gothic,-24,700,0</font>
                         <color>0,204,51</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
